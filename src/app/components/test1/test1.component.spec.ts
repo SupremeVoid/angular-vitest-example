@@ -19,5 +19,9 @@ describe('Test1Component', () => {
 
     it('should create', () => {
         expect(component).toBeTruthy();
+        const dataStrings = fixture.nativeElement.querySelectorAll('p');
+        expect(dataStrings).toHaveLength(6);
+        expect(dataStrings[5].innerHTML).toEqual('test.comp22222')
+        console.log(dataStrings);
     });
 });
