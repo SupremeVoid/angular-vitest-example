@@ -13,6 +13,13 @@ export default defineConfig(({ mode }) => {
             setupFiles: ['src/test-setup.ts'],
             include: ['**/*.spec.ts'],
             reporters: ['default'],
+            pool: 'vmForks',
+            poolOptions: {
+                forks: {
+                    maxForks: 1,
+                    minForks: 1,
+                },
+            },
             coverage: {
                 provider: 'v8'
             }

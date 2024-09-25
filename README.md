@@ -1,6 +1,6 @@
 # Angular & Vitest
 
-This is an example application to demonstrate Angular 17.3.5 working together with Vitest 1.5.0 unit tests.
+This is an example application to demonstrate Angular 18.2.6 working together with Vitest 2.1.1 unit tests.
 
 ## Running unit tests
 
