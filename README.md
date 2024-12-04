@@ -1,6 +1,7 @@
 # Angular & Vitest
 
-This is an example application to demonstrate Angular 18.2.6 working together with Vitest 2.1.1 unit tests.
+This is an example application to demonstrate Angular 19.0.1 working together with Vitest 2.1.8 unit tests.
+With the help of [Analog](https://github.com/analogjs/analog).
 
 ## Running unit tests
 
